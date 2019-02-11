@@ -4,13 +4,28 @@
     <meta charset="utf-8" />
     <title>WEEK06</title>
     <link href="css/default.css" rel="stylesheet" />
+
+  <script type="text/javascript">
+     
+      function addNumbers(j)
+      {
+          var sum = 0;
+          
+          while (j < inputnumber)
+          {
+              sum += j--;
+          }
+      }
+
+     </script>
 </head>
 <body>
-
+    
     <script>
-        var input = prompt("enter the number");
-        var sum = o;
-        var J;
+        var inputnumber = prompt("Please state starting number :");
+        document.write(addNumbers(inputnumber));
+        /*var sum = o;
+        var i;
         while (i <= input)
         {
             Document.write("point A : i is" + i);
@@ -18,7 +33,9 @@
             sum += i;
             Document.write("Final : Sum is" + sum);
         }
-        document.write(+sum);
+        document.write(+sum);*/
+
+        
     </script>
 </body>
 </html>
